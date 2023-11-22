@@ -26,3 +26,6 @@ The encryption mechanism is a variation of the Caesar cipher, with a unique twis
 3. Tuple Assignment: To efficiently swap the scrolls' contents.
 4. Basic Encryption Logic: Implementing the Caesar cipher with a twist for dual encryption.
 
+[![Concept Image](https://github.com/KiTE-PSPP/PSPPA1QN3/blob/main/AS3.png)]
+
+
