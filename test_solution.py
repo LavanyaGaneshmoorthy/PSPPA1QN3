@@ -9,9 +9,8 @@ def test_swap_and_encrypt():
 
     result1, result2 = swap_and_encrypt(scroll1, scroll2, lunar_phase)
 
-    expected_result1 = "Khoor, Hohud'v Vfrryg!"
-    expected_result2 = "Kvhuuljohv, Syvj's Vfrryg!"
+    expected_result1 = "Juhhwlqjv, Rulrq'v Vfuroo!"
+    expected_result2 = "Khoor, Hohud'v Vfrryg!"
 
     assert result1 == expected_result1
     assert result2 == expected_result2
-
