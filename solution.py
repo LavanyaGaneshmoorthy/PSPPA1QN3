@@ -6,9 +6,9 @@ def caesar_cipher(text, shift):
     for char in text:
         if char.isalpha():
             start = ord('a') if char.islower() else ord('A')
-            result = chr(ord(char) - start + shift % 26 + start)
+            result += chr(ord(char) - start + shift % 26 + start)
         else:
-            result = char
+            result += char
     return result
 
 def swap_and_encrypt(scroll1, scroll2, lunar_phase):
